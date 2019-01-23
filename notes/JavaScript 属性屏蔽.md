@@ -12,4 +12,4 @@ tags: [JavaScript]
 
 3. 如果在 [[Prototype]] 链上层**存在** foo 并且它是一个 **setter**，那就一定会 调用这个 setter。 foo 不会被添加到（或者说屏蔽于） myObject ，也不会重新定义 foo 这 个 setter。
 
-如果你希望在第二种和第三种情况下也屏蔽 foo ，那就不能使用 = 操作符来赋值，而是使用 Object.defineProperty(..) 来向 myObject 添加 foo 。
+如果你希望在第二种和第三种情况下也屏蔽 foo ，那就不能使用 = 操作符来赋值，而是使用 `Object.defineProperty()` 来向 myObject 添加 foo 。
