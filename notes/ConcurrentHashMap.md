@@ -1,7 +1,7 @@
 ---
 title: ConcurrentHashMap
 created: '2019-03-08T08:22:49.344Z'
-modified: '2019-03-08T08:47:23.298Z'
+modified: '2019-03-08T08:59:00.383Z'
 tags: [Java]
 ---
 
@@ -11,7 +11,7 @@ ConcurrentHashMap使用了一个**Node<K,V>[] table**来存储 Node，用 key �
 
 ## 哈希桶Table初始化
 
-初始化 table 的工作将发生在进行 put 操作时，如果发现 table 还没有被初始化，那么就会调用方法 initTable 来进行 table 的初始化，下面展示了初始化table的具体流程代码：
+初始化 table 的工作将发生在进行 put 操作时，如果发现 table 还没有被初始化，那么就会调用方法 initTable 来进行 table 的初始化，下面展示了初始化 table 的具体流程代码：
 
 ```java
     private final Node<K,V>[] initTable() {
@@ -54,7 +54,7 @@ ConcurrentHashMap使用了一个**Node<K,V>[] table**来存储 Node，用 key �
 
 ## 查询操作
 
-在ConcurrentHashMap中查询一条记录首先需要知道这条记录存储的table的位置，该位置上可能为null；如果为null，说明想要查询的记录不存在于ConcurrentHashMap中，否则，就在该位置上的链表或者红黑树中查找记录：
+在 ConcurrentHashMap 中查询一条记录首先需要知道这条记录存储的 table 的位置，该位置上可能为 null；如果为 null 说明想要查询的记录不存在于 ConcurrentHashMap 中，否则就在该位置上的链表或者红黑树中查找记录：
 
 ```java
     public V get(Object key) {
@@ -80,7 +80,7 @@ ConcurrentHashMap使用了一个**Node<K,V>[] table**来存储 Node，用 key �
 
 ## 插入操作
 
-- 计算记录的 hashCode，然后计算 table 的 index 位置。如果该位置还为null，说明该位置上还没有记录，则通过调用 `casTabAt` 方法来将记录插入到 index 的位置上去；否则，通过`synchronized` 关键字对 index 位置加锁，需要注意的是，当前线程只会锁住 index 位置，其他位置上没有锁住，所以此时其他线程可以安全的获得其他位置的锁来进行操作。
+- 计算记录的 hashCode，然后计算 table 的 index 位置。如果该位置还为null，说明该位置上还没有记录，则通过调用 `casTabAt` 方法来将记录插入到 index 的位置上去；否则，通过`synchronized` 关键字对 index 位置加锁，需要注意的是，当前线程只会锁住 index 位置，其他位置上没有锁住，所以其他线程可以安全的获得其他位置的锁来进行操作。
 
 ```java
     public V put(K key, V value) {
@@ -155,7 +155,7 @@ ConcurrentHashMap使用了一个**Node<K,V>[] table**来存储 Node，用 key �
 
 ## 删除操作
 
-删除的时候需要对table中的index位置加锁，ConcurrentHashMap使用synchronized关键字将table中的index位置锁住，然后进行删除。
+删除的时候需要对 table 中的 index 位置加锁，ConcurrentHashMap 使用 `synchronized` 关键字将 index 位置锁住，然后进行删除。
 
 ```java
     public V remove(Object key) {
