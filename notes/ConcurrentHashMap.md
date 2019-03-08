@@ -1,7 +1,7 @@
 ---
 title: ConcurrentHashMap
 created: '2019-03-08T08:22:49.344Z'
-modified: '2019-03-08T08:59:00.383Z'
+modified: '2019-03-08T09:09:52.352Z'
 tags: [Java]
 ---
 
@@ -80,7 +80,7 @@ ConcurrentHashMap使用了一个**Node<K,V>[] table**来存储 Node，用 key �
 
 ## 插入操作
 
-- 计算记录的 hashCode，然后计算 table 的 index 位置。如果该位置还为null，说明该位置上还没有记录，则通过调用 `casTabAt` 方法来将记录插入到 index 的位置上去；否则，通过`synchronized` 关键字对 index 位置加锁，需要注意的是，当前线程只会锁住 index 位置，其他位置上没有锁住，所以其他线程可以安全的获得其他位置的锁来进行操作。
+计算记录的 hashCode，得出 table 的 index 位置。如果该位置还为null，说明该位置上还没有记录，通过调用 `casTabAt` 方法来将记录插入到 index 的位置上去；否则，通过`synchronized` 关键字对 index 位置加锁，需要注意的是，当前线程只会锁住 index 位置，其他位置上没有锁住，所以其他线程可以安全的获得其他位置的锁来进行操作。
 
 ```java
     public V put(K key, V value) {

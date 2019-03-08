@@ -1,7 +1,8 @@
 ---
 title: Dockerfile 指令
 created: '2019-03-07T05:54:18.981Z'
-modified: '2019-03-07T06:21:21.796Z'
+modified: '2019-03-08T09:07:39.717Z'
+tags: [DevOps]
 ---
 
 # Dockerfile 指令
