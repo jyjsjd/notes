@@ -1,11 +1,13 @@
 ---
-title: \_\_proto\_\_
+title: proto
 tags: [JavaScript]
+created: '2019-01-23T09:08:16.882Z'
+modified: '2019-03-15T03:44:55.016Z'
 ---
 
-# \_\_proto\_\_
+# `__proto__`
 
-\_\_proto\_\_ 是**实例对象**的属性。
+`__proto__` 是**实例对象**的属性。
 
 prototype 是**函数**（或者类）的属性。
 
