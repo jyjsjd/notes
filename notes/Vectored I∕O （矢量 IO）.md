@@ -1,7 +1,8 @@
 ---
 title: Vectored I/O （矢量 IO）
 created: '2019-04-24T11:40:20.991Z'
-modified: '2019-04-24T11:45:54.463Z'
+modified: '2019-04-24T23:52:16.639Z'
+tags: [Java, NIO]
 ---
 
 # Vectored I/O （矢量 IO）
