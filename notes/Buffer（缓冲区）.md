@@ -1,7 +1,7 @@
 ---
 title: Buffer（缓冲区）
 created: '2019-04-24T06:22:08.051Z'
-modified: '2019-04-24T23:52:06.355Z'
+modified: '2019-04-26T06:33:43.919Z'
 tags: [Java, NIO]
 ---
 
@@ -14,3 +14,5 @@ tags: [Java, NIO]
 
 这四个属性之间总是遵循以下关系:
 ```0 <= mark <= position <= limit <= capacity```
+
+![buffer.png](../attachments/buffer.png)
