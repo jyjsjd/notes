@@ -1,13 +1,13 @@
 ---
 title: AWK 简单使用
 created: '2019-05-21T05:52:09.452Z'
-modified: '2019-05-21T05:56:37.475Z'
+modified: '2019-05-22T00:16:10.575Z'
 tags: [shell]
 ---
 
 # AWK 简单使用
 
-```shell 
+```shell
 awk 'program' input files
 ```
 
