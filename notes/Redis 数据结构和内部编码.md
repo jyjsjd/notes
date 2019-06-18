@@ -1,8 +1,8 @@
 ---
 title: Redis 数据结构和内部编码
 created: '2019-05-14T02:46:30.957Z'
-modified: '2019-05-14T02:48:18.587Z'
-tags: [Middleware]
+modified: '2019-06-18T13:05:12.498Z'
+tags: [Redis]
 ---
 
 # Redis 数据结构和内部编码
