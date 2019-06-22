@@ -1,7 +1,7 @@
 ---
 title: META-INF
 created: '2019-06-22T02:32:31.026Z'
-modified: '2019-06-22T02:33:41.860Z'
+modified: '2019-06-22T02:36:36.851Z'
 tags: [Java]
 ---
 
@@ -24,3 +24,5 @@ The signature block file associated with the signature file with the same base f
 
 ### services/
 This directory stores all the service provider configuration files.
+
+[jar](https://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html)
