@@ -1,8 +1,8 @@
 ---
 title: Refresh vs. flush
 created: '2019-03-01T09:00:58.232Z'
-modified: '2019-04-26T06:34:21.152Z'
-tags: [es, Middleware]
+modified: '2019-06-29T07:33:49.561Z'
+tags: [ES, Middleware]
 ---
 
 # Refresh vs. flush
