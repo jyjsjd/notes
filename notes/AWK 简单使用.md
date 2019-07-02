@@ -1,8 +1,8 @@
 ---
 title: AWK 简单使用
 created: '2019-05-21T05:52:09.452Z'
-modified: '2019-05-22T00:16:10.575Z'
-tags: [shell]
+modified: '2019-07-02T08:04:19.225Z'
+tags: [Shell]
 ---
 
 # AWK 简单使用
