@@ -2,7 +2,7 @@
 title: String 操作
 tags: [Shell]
 created: '2019-07-02T08:04:58.856Z'
-modified: '2019-07-02T08:12:56.733Z'
+modified: '2019-07-04T05:23:02.902Z'
 ---
 
 # String 操作
@@ -28,3 +28,8 @@ modified: '2019-07-02T08:12:56.733Z'
 - `${string/#substring/replacement}`：从前替换
 
 - `${string/%substring/replacement}`：从后替换
+
+---
+
+![bash_string.png](../attachments/bash_string.png)
+
