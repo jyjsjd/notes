@@ -1,7 +1,7 @@
 ---
 title: Clojure
 created: '2019-06-29T08:37:39.527Z'
-modified: '2019-07-02T07:08:13.417Z'
+modified: '2019-07-08T06:55:13.318Z'
 tags: [Clojure]
 ---
 
@@ -32,4 +32,13 @@ tags: [Clojure]
 - Synchronization. Synchronous operations are those where the caller’s thread of execution waits or blocks or sleeps until it may have exclusive access to a given context, whereas asynchronous operations are those that can be started or scheduled without blocking the initiating thread of execution.
 
 ![clojure_ref.png](../attachments/clojure_ref.png)
+
+---
+
+`#` 匿名函数；set 以 `#` 开头
+`%` 代表参数
+`&` 定参和变参的分界符
+`!` 突变函数以感叹号结尾
+`:` map 的 key 以冒号开头；关键字以冒号开头
+`'` list 以单引号开头
 
