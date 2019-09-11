@@ -1,11 +1,11 @@
 ---
-title: JVM 运行时数据区
-created: '2019-05-12T02:48:18.322Z'
-modified: '2019-05-12T12:43:33.308Z'
 tags: [Java]
+title: JVM运行时数据区
+created: '2019-05-12T02:48:18.322Z'
+modified: '2019-09-11T05:37:10.580Z'
 ---
 
-# JVM 运行时数据区
+# JVM运行时数据区
 
 ## pc Register
 
