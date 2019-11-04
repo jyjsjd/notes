@@ -1,8 +1,8 @@
 ---
-tags: [Java]
+tags: [Collection, Java]
 title: LinkedHashMap
 created: '2019-11-02T08:00:36.364Z'
-modified: '2019-11-02T08:07:29.075Z'
+modified: '2019-11-02T08:08:52.600Z'
 ---
 
 # LinkedHashMap
