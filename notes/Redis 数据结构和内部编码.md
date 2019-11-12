@@ -1,8 +1,8 @@
 ---
+tags: [Redis]
 title: Redis 数据结构和内部编码
 created: '2019-05-14T02:46:30.957Z'
-modified: '2019-06-18T13:05:12.498Z'
-tags: [Redis]
+modified: '2019-11-12T09:28:27.639Z'
 ---
 
 # Redis 数据结构和内部编码
@@ -10,3 +10,5 @@ tags: [Redis]
 ![redistype.png](../attachments/redistype.png)
 
 ![redisinternaltype.png](../attachments/redisinternaltype.png)
+
+> Redis 3.2 为列表提供了quicklist编码，是以ziplist为节点的linkedlist，结合了两者的优点。
