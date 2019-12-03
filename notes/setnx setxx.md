@@ -1,8 +1,9 @@
 ---
-title: setnx setxx
+deleted: true
 tags: [Redis]
+title: setnx setxx
 created: '2019-06-18T13:01:35.581Z'
-modified: '2019-06-18T13:06:15.544Z'
+modified: '2019-12-03T07:56:45.526Z'
 ---
 
 # setnx setxx

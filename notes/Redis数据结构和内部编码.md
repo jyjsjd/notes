@@ -1,11 +1,11 @@
 ---
 tags: [Redis]
-title: Redis 数据结构和内部编码
+title: Redis数据结构和内部编码
 created: '2019-05-14T02:46:30.957Z'
-modified: '2019-11-12T09:28:27.639Z'
+modified: '2019-12-03T08:13:18.223Z'
 ---
 
-# Redis 数据结构和内部编码
+# Redis数据结构和内部编码
 
 ![redistype.png](../attachments/redistype.png)
 
