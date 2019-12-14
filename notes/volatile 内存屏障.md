@@ -1,11 +1,11 @@
 ---
-tags: [Java]
-title: 内存屏障
+tags: [Java, JVM]
+title: volatile 内存屏障
 created: '2019-02-28T02:40:00.195Z'
-modified: '2019-12-13T02:17:32.859Z'
+modified: '2019-12-14T01:34:49.654Z'
 ---
 
-# 内存屏障
+# volatile 内存屏障
 `volatile` 关键字：
 * 保证可见性、不保证原子性；
 * 禁止指令重排序。

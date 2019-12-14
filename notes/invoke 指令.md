@@ -1,8 +1,8 @@
 ---
+tags: [JVM]
 title: invoke 指令
-tags: [Java]
 created: '2019-06-24T08:50:38.223Z'
-modified: '2019-06-24T08:53:54.123Z'
+modified: '2019-12-14T01:34:30.028Z'
 ---
 
 # invoke 指令
