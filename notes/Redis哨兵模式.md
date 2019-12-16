@@ -1,11 +1,11 @@
 ---
 tags: [Redis]
-title: 哨兵模式
+title: Redis哨兵模式
 created: '2019-12-03T08:23:23.551Z'
-modified: '2019-12-03T08:37:51.279Z'
+modified: '2019-12-16T03:41:10.279Z'
 ---
 
-# 哨兵模式
+# Redis哨兵模式
 
 ![sentinel.png](../attachments/sentinel.png)
 

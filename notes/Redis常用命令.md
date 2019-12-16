@@ -1,11 +1,11 @@
 ---
 tags: [Redis]
-title: 常用命令
+title: Redis常用命令
 created: '2019-12-03T07:46:07.100Z'
-modified: '2019-12-03T08:11:56.613Z'
+modified: '2019-12-16T03:41:24.925Z'
 ---
 
-# 常用命令
+# Redis常用命令
 
 `--` 开头的命令和`redis-cli -h {host} -p {port}`一起使用。
 

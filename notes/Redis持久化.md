@@ -1,11 +1,11 @@
 ---
 tags: [Redis]
-title: 持久化
+title: Redis持久化
 created: '2019-11-13T08:59:05.190Z'
-modified: '2019-11-13T09:26:41.653Z'
+modified: '2019-12-16T03:41:21.375Z'
 ---
 
-# 持久化
+# Redis持久化
 
 ## RDB
 

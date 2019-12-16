@@ -1,11 +1,11 @@
 ---
 tags: [Redis]
-title: 遍历所有键
+title: Redis遍历所有键
 created: '2019-11-12T11:28:34.440Z'
-modified: '2019-12-03T08:02:36.452Z'
+modified: '2019-12-16T03:40:58.542Z'
 ---
 
-# 遍历所有键
+# Redis遍历所有键
 
 ## 全量遍历
 

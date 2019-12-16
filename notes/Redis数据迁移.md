@@ -1,11 +1,11 @@
 ---
 tags: [Redis]
-title: 数据迁移
+title: Redis数据迁移
 created: '2019-11-12T11:12:04.808Z'
-modified: '2019-11-12T11:27:55.268Z'
+modified: '2019-12-16T03:41:06.185Z'
 ---
 
-# 数据迁移
+# Redis数据迁移
 
 ## Move 
 

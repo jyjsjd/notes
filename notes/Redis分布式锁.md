@@ -1,11 +1,11 @@
 ---
 tags: [Redis]
-title: 分布式锁
+title: Redis分布式锁
 created: '2019-12-14T00:43:58.784Z'
-modified: '2019-12-14T00:51:02.523Z'
+modified: '2019-12-16T03:41:15.146Z'
 ---
 
-# 分布式锁
+# Redis分布式锁
 
 ## setnx
 
